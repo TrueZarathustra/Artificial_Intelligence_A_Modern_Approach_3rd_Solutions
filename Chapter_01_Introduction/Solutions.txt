@@ -1,0 +1,47 @@
+1.1
+intelligence - an ability to handle wide range of the information and use the results to gain benefits
+artificial intelligence - an intelligence made by other intelligence system/agent/human
+agent - an essence which receives data from sensors, handle them and react with actuating mechanisms
+rationality - an ability to act such as the expected result of action will be as good as possible
+logical reasoning - a way of thinking objectively, systematically, step-by-step in accordance with logical rules
+
+1.2
+TODO
+
+1.3
+Reflex actions are rational in most cases, but they are not intelligent
+
+1.4
+No. IQ test is too highly specialized. You can't check intelligence only by it.
+
+1.5
+10^7
+
+1.6
+To correctly measure system parameters you should be outsite the system. In case of introspecting you are inside it. It leads to inaccuracy
+
+1.7
+Bar code scanners - not intelligent
+Web-search engines - intelligent in a specialized field
+Voice activated telephone menus - intelligent in a specialized field
+Internet routing algorithms - not intelligent
+
+1.8
+The mechanism of thinking doesn't really matter. The results matter
+
+1.9
+Cause rationality helps to achieve the goal of surviving
+
+1.10
+Both
+
+1.11-1.13
+False
+
+1.14
+a, c, e, f, i - definitely true
+b, d, h - definitely no
+g, j, k - a bit true
+
+1.15
+Don't form own opinion for now
