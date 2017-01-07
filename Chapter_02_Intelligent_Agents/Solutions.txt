@@ -1,0 +1,49 @@
+2.1 
+For example: at the T-th time step agent will choose greedy (minutely favorable) solution, even if it is not globally optimal
+
+2.2
+a - it's rational, cause there is no other agent, which can do better
+b - yes, to remember the state and to avoid unneccesary movements
+c-  yes, it can learn environment to choose optimal movement. It also can learn the possibility of clean->dirty transition to choose time interval for checking squares
+
+2.3
+a - false
+b - false. In totally randomized environment with no consistent laws none of the agents can be rational, but we also can say that in this case EVERY agent will be rational
+c - similar to b. In some environments every (and none at the same time) of agents rational
+d - true
+e - true, if function can be formalized somehow 
+f - true, for example, in trivial cases when there is only one possible action for an agent
+g - true
+h - false
+i - false
+
+2.4
+Playing soccer:
+Performance - win game, maximize own goals, minimize foreigh goals
+Environment - other players, field, ball, referee
+Actuators - devices for movement and kicking ball
+Sensors - cameras, touch sensors, accelerometers
+
+2.5
+agent - an essence which receives data from sensors, handle them and react with actuating mechanisms
+agent function - a function, that defines how an agent acts in different situations
+agent programm - a programm which implements agent's function
+rationality - an ability to act such as the expected result of action will be as good as possible
+autonomy - a possibility to act without external help
+reflex agent - an agent whose actions depend only from current percept
+model-based agent - an agent who has an model of the world (knowledge of how his action will affect the world state)
+goal-based agent - an agent who choose actions in a way to reach the goal
+utility-based agent - an agent who try to maximize his performance
+learning agent - an agent who changes his function based on his previous expirience
+
+2.6
+a - yes
+b - yes
+c - yes
+d - 2^n
+e - if an agent has a time limit for make an action - yes, else - no
+
+2.7-2.9
+See separate files
+
+2.10
