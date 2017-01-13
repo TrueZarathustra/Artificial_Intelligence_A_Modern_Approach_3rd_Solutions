@@ -65,7 +65,8 @@ def ReflexVacuumAgent():
             return 'Left'
     return Agent(program)
 
-
+'''
+# Is not used for now
 def SimpleReflexAgentProgram(rules, interpret_input):
     "This agent takes action based solely on the percept. [Figure 2.10]"
     def program(percept):
@@ -74,7 +75,7 @@ def SimpleReflexAgentProgram(rules, interpret_input):
         action = rule.action
         return action
     return program
-
+'''
 # ---------------Model Based Agent---------------------------
 
 
@@ -96,7 +97,8 @@ def ModelBasedVacuumAgent():
             return 'Left'
     return Agent(program)
 
-
+'''
+# Is not used for now
 def ModelBasedReflexAgentProgram(rules, update_state):
     "This agent takes action based on the percept and state. [Figure 2.12]"
     def program(percept):
@@ -106,3 +108,15 @@ def ModelBasedReflexAgentProgram(rules, update_state):
         return action
     program.state = program.action = None
     return program
+'''
+
+'''
+a = ReflexVacuumAgent()
+e = XYEnvironment(2,1)
+d = Dirt()
+a = TraceAgent(a)
+e.add_thing(a, (0,1))
+e.add_thing(a, (1,0))
+e.add_thing(d, (0,0))
+e.list_things_at((0,0))
+'''
